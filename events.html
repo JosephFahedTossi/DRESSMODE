@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<meta name="keywords" content="events" />
+<meta name="description" content="Dressmode, lebanon, dress, lebanon cloth, clothing, brands,fashion, lebanese, joseph, tossy,tossi, best, designers, model, suits, shoes, high, low, stores, retail, cloth,contact, best" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EVENTS</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<style type="text/css"  rel="stylesheet" media="screen">
+* {
+	margin: 0 ;
+	border: 0 ;
+	padding: 0 ;
+	}
+	  body {
+		background-color:#E0F2F7;
+		font: 16px/20px Calibri, San-Serif;
+		color: #040520 ;
+		margin: 0;
+			}
+	a {
+	color:#FFF;
+	text-decoration: none;
+	font-weight: bold;
+	}
+	a:hover {
+	color: black;
+	text-decoration: underline;
+	}
+	header {
+	  background-color: #950202;
+	  width: 100%;
+	  height: 90px;
+	  position: fixed;
+	  opacity: 0.9;
+	  border-radius: 6px;
+	  top: 0;
+	  left: 0;
+	  z-index: 100;
+			}	
+#logo {
+  margin: 10px;
+  float: left;
+  width: 300px;
+  height: 85px;
+  background: url(images/dressmode.jpg) no-repeat center;
+}	
+nav {
+	float: right;
+	padding: 10px 15px 15px 0 ;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(images/icon01.png) center;
+}
+a:hover#menu-icon {
+	border-radius: 5px 6px 0 0;
+}
+ul {
+list-style: none;
+}
+nav ul li {
+display: inline-block;
+float: left;
+padding: 12px;
+}
+.current {
+ color: #FFF;
+ text-decoration: none;
+}
+.content {
+padding-top: 120px;
+margin:0 auto;
+width:100%;
+height:100%;
+}
+/*-----------SECTIONS--------*/
+p {
+margin: 0 auto;
+text-align: left;
+float: left;
+padding-left: 45px;
+padding-bottom: 45px;
+line-height:1;
+padding-top: 15px;
+font-family: algerian;
+font-size:30px;
+}
+section img {
+width: 1000px;
+float: center;
+height: 350px;
+border-radius: 15px;
+border-color: #4846A3;
+opacity:0.97;
+min-height:100px;
+min-width:100px;
+padding:5px;
+border-radius: 15px;
+margin: 0 auto;
+}
+
+/*---media query----*/
+@media screen and (max-width: 480px) {
+body {
+position:absolute;
+		}
+}
+@media screen and (max-width: 730px) {
+header {
+position:fixed;
+		}
+		section {
+		clear:left;
+		min-width: 350px;
+		font-size: 5vw;
+		}
+	
+	#menu-icon {
+	position:top;
+	display: inline-block;
+	float: right;
+	margin:0;
+	}
+	nav ul, nav:active ul {
+	display: none;
+	position: absolute;
+	padding: 20px;
+	background: #405580;
+	border: 1px solid #FFF;
+	right: 20px;
+	top: 60px;
+	width: 50%;
+	border-radius: 2px 0 2px;
+	}
+	nav li {
+	text-align: center;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+	}
+	nav:hover ul {
+	display: block;
+	}
+	section img {
+	width: 90%;
+	}
+	}
+
+</style>
+</head>
+<body>
+	<header>
+		<a href="#" id="logo"></a>
+		<nav>
+		<a href="#" id="menu-icon"></a>
+		<ul>
+		<li><a href="index.html" class="current">Home</a></li>
+		<li><a href="brands.html">Brands</a></li>
+		<li><a href="events.html">Up-coming events</a></li>
+		<li><a href="contact.php">Contact us</a></li>
+		</ul>
+		</nav>
+		</header>
+		<div class="content">
+		<section class="section1">
+		<center><img src="images/party1.png" alt="no connection"></center>
+		<p>Party all day and all night celebrating the new opening of DRESSMODE. </p>
+		</section>
+		
+		<section class="section2">
+		<center><img src="images/party2.jpg" alt="no connection"></center>
+		<p>You can find top models showing the newest trends on our palladium.</p>
+		</section>
+		
+		<section class="section3">
+		<center><img src="images/party3.jpg" alt="no connection"></center>
+		<p>Fashion designers and people from all across Lebanon are welcomed.</p>
+		</section>
+		
+		
+   </div>
+</body>
+</html>
